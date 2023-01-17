@@ -1,0 +1,40 @@
+# See https://help.github.com/articles/ignoring-files/ for more about ignoring files.
+
+# debug
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# dependencies
+/node_modules
+/.pnp
+.pnp.js
+
+# git
+# NOTE: you do not normally want to track this file. To remove it from being tracked, uncomment this row before your initial push to Github. If the file is already being tracked, run `git rm --cached .gitignore` and the file will not longer be tracked (if it is uncommented here)   
+# **/.gitignore
+
+# local env files
+.env*.local
+.env
+
+# misc
+.DS_Store
+*.pem
+
+# next.js
+/.next/
+/out/
+
+# out dir
+dist/
+
+# production
+/build
+
+# testing
+/coverage
+
+# typescript
+*.tsbuildinfo
+next-env.d.ts
