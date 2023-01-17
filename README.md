@@ -3,11 +3,12 @@ This is a template for an Express backend. It should be paired with this [NextJS
 
 ## How to use
 
-- Set up your project with this code and link to a new Github repo
-- Set up Railway
-  - [Provision a Postgres container on Railway](https://dev.new)
-  - Create a new Railway project and link to your new Github repo
-- Swap out the environment varialbes in `.env`
+- Clone this project and then push it to a new remote
+- Project setup
+  - Start a new railway project and link it to your new remote
+  - Add a Postgres db to your new project
+  - If needed, add another Github repo to your project for the [frontend](https://github.com/ruffyhacks/template-frontend)
+- Create a .env file for your variables (use .env.example as a guide)
 - Migrate the database `npx prisma migrate dev --name init`
 - Run the app locally `npm run dev`
 
