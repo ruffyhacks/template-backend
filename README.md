@@ -16,7 +16,7 @@ This is a template for an Express backend. It should be paired with this [NextJS
 ### Frameworks
 
 - [Express.js](https://expressjs.com/) – React framework for building performant apps with the best developer experience
-- [Passport.js](https://www.passportjs.org/) – Handle user authentication with ease with providers like Google, Twitter, GitHub, etc.
+- [Passport.js](https://www.passportjs.org/) – Handle user authentication with ease with email/password or providers like Google, Twitter, GitHub, etc.
 - [Prisma](https://www.prisma.io/) – Typescript-first ORM for Node.js
 
 ### Platforms
@@ -28,6 +28,12 @@ This is a template for an Express backend. It should be paired with this [NextJS
 
 - [TypeScript](https://www.typescriptlang.org/) – Static type checker for end-to-end typesafety
 - [ESLint](https://eslint.org/) – Pluggable linter for Next.js and TypeScript
+
+### Capabilities
+
+- Login & Sessions - enable users to log into the app and store a session for next time
+- Registration - enable new users to sign up
+- *Coming Soon* File Upload - upload a file to AWS and save the file's AWS url in your database
 
 ## Author
 
