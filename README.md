@@ -1,12 +1,3 @@
----
-title: NextJS Frontend Template
-description: A frontend template for NextJS Apps
-tags:
-  - next
-  - prisma
-  - postgresql
-  - typescript
----
 ## Introduction
 This is a template for an Express backend. It should be paired with this [NextJS frontend template](https://github.com/ruffyhacks/template-frontend) and a Posgresql database.
 
