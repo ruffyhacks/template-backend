@@ -1,19 +1,19 @@
-import passport from 'passport';
+import passport from "passport";
 import { Router } from "express";
-import { registerController } from '../../controllers/auth';
+import { registerController } from "../../controllers/auth";
 
-const router = Router ();
+const router = Router();
 
-router.post('/login', passport.authenticate('local'), (req, res) => {
-  return res.sendStatus(200)
-})
+router.post("/login", passport.authenticate("local"), (req, res) => {
+	return res.sendStatus(200);
+});
 
-router.post('/register', registerController)
+router.post("/register", registerController);
 
-router.get('/status', (req, res) => {
-  return req.user 
-    ? res.send(req.user) 
-    : res.status(401).send({ msg: "Unauthorized" })
-})
+router.get("/status", (req, res) => {
+	return req.user
+		? res.send(req.user)
+		: res.status(401).send({ msg: "Unauthorized" });
+});
 
-export default router
+export default router;
